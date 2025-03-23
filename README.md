@@ -113,8 +113,10 @@ The model and simulation logic can be found in the `Updated_Model.py` file insid
 Tesla_Trading_Agent/
 ├── Tesla_New_Data/
 │   ├── Updated_Model.py
-│   ├── nasdaq_tesla_2015_2025.csv
-│   └── ...
+│   ├── HistoricalData_With_Indicators_Full.csv
+│   └── scaler_regressor.pkl
+|   └── xgbosst_regressor_model
+|   └── Simulation.py
 ├── Tesla_Old_Data/
 │   ├── old_model.py
 │   ├── prof_dataset.csv
