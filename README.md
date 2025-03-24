@@ -131,7 +131,9 @@ Tesla_Trading_Agent/
 - Orders are generated using a **1-day lookahead strategy**
 - The agent avoids trades when predictions are uncertain or minimal
 - The core model is built using **XGBoostRegressor**, optimized for tabular time-series features
+- The simulation results for the period of March 24 to 28 were produced on March 22. Please note that the actual daily decision is subject to change. For example, a decision to hold on March 24 may change to a decision to buy, depending on the circumstances.
 
 ---
+
 
 Feel free to explore both models, tweak strategies, and expand the feature set to improve predictive performance!
